@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.banking.obs.testNg.InternetBankingtest">
+        <methods>
+          <include name="deleteBeneficiery"/>
+          <include name="fundsTransfer"/>
+          <include name="config_AM"/>
+          <include name="config_BM"/>
+          <include name="viewBeneficiery"/>
+          <include name="addBeneficiery"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="loginToInternetBanking"/>
+          <include name="registerForInternetBanking"/>
+        </methods>
+      </class> <!-- com.banking.obs.testNg.InternetBankingtest -->
+      <class name="com.banking.obs.testNg.ApplyDebitCardtest">
+        <methods>
+          <include name="applyDebitcard"/>
+          <include name="reapplyForDebitcard"/>
+          <include name="deactiveteDebitcard"/>
+          <include name="config_AM"/>
+          <include name="config_BM"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="config_BC"/>
+          <include name="config_BS"/>
+          <include name="approveDebitcard"/>
+        </methods>
+      </class> <!-- com.banking.obs.testNg.ApplyDebitCardtest -->
+      <class name="com.banking.obs.testNg.HomeModuletest">
+        <methods>
+          <include name="loginToStaff"/>
+          <include name="openAccount"/>
+          <include name="approvePendingApplication"/>
+          <include name="viewActiveCustomer"/>
+          <include name="config_AM"/>
+          <include name="config_BM"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="config_BC"/>
+          <include name="config_BS"/>
+        </methods>
+      </class> <!-- com.banking.obs.testNg.HomeModuletest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
